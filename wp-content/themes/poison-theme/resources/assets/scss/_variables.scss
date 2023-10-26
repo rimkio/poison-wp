@@ -1,0 +1,12 @@
+$fonts_primary: (
+  'DINNextLTPro-Regular': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Regular', weight: 400, style: normal),
+  'DINNextLTPro-Italic': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Italic', weight: 400, style: italic),
+  'DINNextLTPro-Bold': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Bold', weight: 700, style: normal),  
+);
+
+$color_primary: #FFCB30;
+$color_second: #00A9C4;
+
+a{
+  font-weight: 700; 
+}

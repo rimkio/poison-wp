@@ -1,0 +1,14 @@
+@each $font-key, $font-item in $fonts_primary {
+  $font-family: map-get($font-item, 'family');
+  $font-weight: map-get($font-item, 'weight');
+  $font-style: map-get($font-item, 'style');
+  $font-file: map-get($font-item, 'file');
+  @font-face {
+    font-family: $font-family;
+    src: url('../fonts/' + $font-file + '.otf') format('opentype');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-display: swap;
+  }
+}
+
