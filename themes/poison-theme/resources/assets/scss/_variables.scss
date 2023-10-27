@@ -1,12 +1,16 @@
 $fonts_primary: (
-  'DINNextLTPro-Regular': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Regular', weight: 400, style: normal),
-  'DINNextLTPro-Italic': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Italic', weight: 400, style: italic),
-  'DINNextLTPro-Bold': (family: 'DIN Next LT Pro', file: 'DINNextLTPro-Bold', weight: 700, style: normal),  
+  'Lora-Bold': (family: 'Lora', file: 'Lora-Bold', weight: 700, style: normal),
+  'Lora-BoldItalic': (family: 'Lora', file: 'Lora-BoldItalic', weight: 700, style: italic),
+  'Lora-Italic': (family: 'Lora', file: 'Lora-Italic', weight: 400, style: italic),  
+  'Lora-Medium': (family: 'Lora', file: 'Lora-Medium', weight: 500, style: normal),  
+  'Lora-MediumItalic': (family: 'Lora', file: 'Lora-MediumItalic', weight: 500, style: italic),  
+  'Lora-Regular': (family: 'Lora', file: 'Lora-Regular', weight: 400, style: normal),  
+  'Lora-SemiBold': (family: 'Lora', file: 'Lora-SemiBold', weight: 600, style: normal),  
+  'Lora-SemiBoldItalic': (family: 'Lora', file: 'Lora-SemiBoldItalic', weight: 600, style: italic) 
 );
 
-$color_primary: #FFCB30;
-$color_second: #00A9C4;
+$color_1: #0F1533;
+$color_2: #D02028;
+$color_3: #928342;
+$color_4: #090C0F;
 
-a{
-  font-weight: 700; 
-}

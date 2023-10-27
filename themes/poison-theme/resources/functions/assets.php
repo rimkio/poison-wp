@@ -20,14 +20,4 @@ add_action( 'wp_enqueue_scripts', function () {
 	}
 } );
 
-if ( ! function_exists( 'poison_load_fonts' ) ) {
-	/**
-	 * Load custom font family
-	 */
-	function poison_load_fonts() {
-		wp_enqueue_style( 'primary-font', get_template_directory_uri() . '/resources/assets/fonts/fonts.css', [], FLIP_WP_TOOLKIT_VER );
-	}
-}
-
-add_action( 'admin_enqueue_scripts', 'poison_load_fonts' );
 
